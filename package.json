@@ -1,0 +1,41 @@
+{
+  "name": "passport-socius",
+  "version": "1.0.0",
+  "description": "OAuth2 strategy for Passport",
+  "keywords": [
+    "passport",
+    "socius",
+    "auth2",
+    "authentication"
+  ],
+  "author": {
+    "name": "Patrick Heneise",
+    "email": "mail@patrickheneise.com",
+    "url": "http://www.patrickheneise.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://bitbucket.org/sociuslive/passport-socius.git"
+  },
+  "bugs": {
+    "url": "https://bitbucket.org/sociuslive/passport-socius/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
