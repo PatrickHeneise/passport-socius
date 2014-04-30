@@ -27,9 +27,7 @@
     }
   ],
   "main": "./lib",
-  "dependencies": {
-    "passport-strategy": "^1.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "engines": {
     "node": ">= 0.4.0"
